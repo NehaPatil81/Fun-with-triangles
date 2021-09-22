@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fun with Triangles</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <nav class="navigation-bar">
+    <h1>Fun with Triangles</h1>
+		<ul class="navbar">
+			<li class="navigation-item"><a href="/">Triangle Type</a></li>
+			<li class="navigation-item"><a href="hypo.html">Hypoteanous</a></li>
+			<li class="navigation-item"><a href="area.html">Area</a></li>
+      <li class="navigation-item"><a href="quiz.html">Triangle Quiz</a></li>
+		</ul>
+	</nav>
+       <main class="quiz-container">
+        <h1 id="heading">Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p class="question">1. If a triangle has angles 135°, 15°, 30°. Is it an obtuse triangle?</p>
+                <label class="option"><input type="radio" name="que1" id="que-1" value="Yes"> Yes</label>
+                <label class="option"><input type="radio" name="que1" id="que-1" value="No"> No</label>
+            </div>
+
+            <div class="question-container">
+                <p class="question">2. If a triangle has angles 115°, 25°, 40°. Is it an acute triangle?</p>
+                <label class="option"><input type="radio" name="que2" id="que-2" value="Yes"> Yes</label>
+                <label class="option"><input type="radio" name="que2" id="que-2" value="No"> No</label>
+            </div>
+
+            <div class="question-container">
+                <p class="question">3. If a triangle has angles 90°, 60°, 30°. Is it a right angle triangle?</p>
+                <label class="option"><input type="radio" name="que3" id="que-3" value="Yes"> Yes</label>
+                <label class="option"><input type="radio" name="que3" id="que-3" value="No"> No</label>
+            </div>
+
+            <div class="question-container">
+                <p class="question">4. A triangle has angles 60°, 60°, 60°. Is it an equilateral triangle?</p>
+                <label class="option"><input type="radio" name="que4" id="que-4" value="Yes"> Yes</label>
+                <label class="option"><input type="radio" name="que4" id="que-4" value="No"> No</label>
+            </div>
+
+            <div class="question-container">
+                <p class="question">5. If a triangle has angles 25°, 75°, 80°. Is it an acute triangle?</p>
+                <label class="option"><input type="radio" name="que5" id="que-5" value="Yes"> Yes</label>
+                <label class="option"><input type="radio" name="que5" id="que-5" value="No"> No</label>
+            </div>
+
+            <div class="question-container">
+                <p class="question">6. If a triangle has 2 sides with equal lengths and 75° angle between them. What is the type of triangle?</p>
+                <label class="option"><input type="radio" name="que6" id="que-6" value="Equilateral"> Equilateral</label>
+                <label class="option"><input type="radio" name="que6" id="que-6" value="Isosceles"> Isosceles</label>
+                <label class="option"><input type="radio" name="que6" id="que-6" value="Right Angle Triangle"> Right Angle triangle</label>
+            </div>
+            
+            <div class="question-container">
+                <p class="question">7. If a triangle has 2 angles of 75°. What is the measure of third angle in degree?</p>
+                <label class="option"><input type="radio" name="que7" id="que-7" value="25°"> 25°</label>
+                <label class="option"><input type="radio" name="que7" id="que-7" value="30°"> 30°</label>
+                <label class="option"><input type="radio" name="que7" id="que-7" value="15°"> 15°</label>
+            </div>
+            
+            <div class="question-container">
+                <p class="question">8. If a triangle has 2 sides with equal lengths and 60° angle between them. What is the type of triangle?</p>
+                <label class="option"><input type="radio" name="que8" id="que-8" value="Equilateral">  Equilateral</label>
+                <label class="option"><input type="radio" name="que8" id="que-8" value="Isosceles">  Isosceles</label>
+                <label class="option"><input type="radio" name="que8" id="que-8" value="Both"> Both</label>
+            </div>
+            
+            <div class="question-container">
+                <p class="question">9. The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+                <label class="option"><input type="radio" name="que9" id="que-9" value="15">  15</label>
+                <label class="option"><input type="radio" name="que9" id="que-9" value="45">  45</label>
+                <label class="option"><input type="radio" name="que9" id="que-9" value="5"> 5</label>
+            </div>
+            
+            <div class="question-container">
+                <p class="question">10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle.</p>
+                <label class="option"><input type="radio" name="que10" id="que-10" value="Equilateral">  Equilateral</label>
+                <label class="option"><input type="radio" name="que10" id="que-10" value="Isosceles">   Isosceles</label>
+                <label class="option"><input type="radio" name="que10" id="que-10" value="Scalene"> Scalene</label>
+            </div>
+
+        </form>
+        <button id="submit-btn" class="btn" type="submit">Submit</button>
+
+        <div class="result"></div>
+    </main>
+  <script src="triQuiz.js"></script>
+  </body>
+</html>

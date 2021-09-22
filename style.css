@@ -1,0 +1,119 @@
+:root{
+   --primary-color:#111827;
+  --secondary-color:#337bd2;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--primary-color);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  max-width: 40%;
+  color: white;
+}
+
+input{
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.user-input::placeholder{
+  color: black;
+  font-weight: bold;
+}
+
+#triangle-type-btn,#hypo-btn,#area-btn,#submit-btn{
+color: white;
+padding:  0.7rem;
+margin: 1rem 0.5rem;
+border-style: none;
+border-radius: 0.5rem;
+background-color: var(--secondary-color);
+font-weight: bold;
+cursor: pointer;
+}
+#output{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#text-note{
+  text-align: center;
+}
+h1{
+  margin: 0; 
+}
+#heading{
+  margin: 1rem;
+  text-align: center;
+}
+label{
+  margin: 0.5rem;
+}
+nav{
+  padding: 1rem;
+}
+.navigation-bar{
+  background-color: var(--secondary-color);
+  color: white;
+}
+.navbar{
+  text-align: right;
+}
+.navigation-item{
+  display: inline-block;
+  list-style: none;
+}
+.navigation-item a{
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.result{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+
+}
+.quiz-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  max-width: 50%;
+  color: white;
+}
+.question-container{
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+}
+.question{
+ font-size: large;
+}
+i{
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+
+.list-item-inline{
+  display: inline;
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.footer{
+text-align: center;  
+}
+
+
