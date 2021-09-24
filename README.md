@@ -2,6 +2,7 @@
 
 Helps you with all triangle related stuff like triangle type, area, hypotenous and quiz.
 
+Check out here : https://trianglesfunstuff.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/70835087/134422832-b54d2142-0775-4bc9-9ec0-f8174fc5d4bc.png)
 ![image](https://user-images.githubusercontent.com/70835087/134422975-2329e378-35b2-4353-a527-e1ef5f4650df.png)
